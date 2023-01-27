@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #111111;
+}
+.custom-background {
+    background-image: radial-gradient(40% 20% at 50% 0, rgba(104, 104, 104, 0.85), #111111);
+    min-height: 50%;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+}
+
+/*
+    VIDEO CARD
+*/
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    filter: opacity(0.1);
+}
+.card-body{
+    z-index: 2;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* FIM DE VIDEO CARD
+
+ INICIO DE NAVBAR*/
+
+.navbar {
+    background-color: rgba(0,0,0, 0.5);
+    width: 100%;
+    border-bottom: 1px solid rgba(61, 61, 61, 0.8);
+    z-index: 9999;
+}
+
+.navbar-nav {
+    align-items: center;
+    gap: 10px;
+}
+
+a, a:focus, a:link {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-group {
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 15px;
+    transition: 0.5s;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn:hover, .btn:active::before, .btn:focus {    
+    background: none;
+}
+
+.btn:hover {
+    border-bottom: 2px solid white;
+}
+
+
+.containerfooter{
+    padding-top:20px;
+    border-top: 1px solid white;
+    color: white;
+}
+.col-md-4{
+    display: flex;
+}
+.mt-6{
+    margin-top: 100px;
+}
+.mr-2{
+    margin-right: 10px;
+}
+.img-footer{
+    width: 150px;
+    height: 125px;
+}
+.col-sm-6.mt-5{
+    display: flex;
+}
+.card{
+    display: flex;
+    min-height: 270px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px rgba(221, 221, 221, 0.47);
+}
+.col-sm-6.mt-4 {
+    display: flex;
+}
