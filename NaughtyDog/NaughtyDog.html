@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Naughty Dog </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="NaughtyDog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/jpg" href="Imagens/favicon.ico"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark">
+    <a class="navbar-brand" href="NaughtyDog.html">
+      <img src="Imagens/NaughtyDog_Logo.png" style="margin-left: 20px; object-fit: contain;" alt="Bootstrap" width="100" height="50" class="d-inline-block align-top">
+    </a>
+    <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#toggleMobileMenu" 
+        aria-controls="toggleMobileMenu" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav ms-5 text-center">
+          <li>
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle " data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"><b>
+                  EMPRESAS</b>
+                </button>
+                <ul class="dropdown-menu text-white">
+                  <li><a href="../index.html" target="_blank"><button class="dropdown-item" type="button">SearchCompany</button></a></li>
+                  <li><a href="../Activision/Activision.html" target="_blank"><button class="dropdown-item" type="button">Activision</button></a></li>
+                  <li><a href="../RockstarGames/Rockstar.html" target="_blank"><button class="dropdown-item" type="button">Rockstar Games</button></a></li>
+                  <li><a href="../valve/valve.html" target="_blank"><button class="dropdown-item" type="button">Valve</button></a></li>                      
+                </ul>
+            </div>
+        </li>
+            <li>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false"><b>
+                      JOGOS</b>
+                    </button>
+                    <ul class="dropdown-menu text-white">
+                      <li><a href="https://www.playstation.com/pt-pt/uncharted/"><button class="dropdown-item" type="button">Uncharted</button></a></li>
+                      <li><a href="https://www.playstation.com/pt-pt/games/the-last-of-us-part-i/"><button class="dropdown-item" type="button">The Last of Us</button></a></li>
+                      <li><a href="https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/"><button class="dropdown-item" type="button">Jak & Daxter</button></a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li>
+              <div class="btn-group">
+                <button class="btn btn-secondary"><a class="nav-link text-white" href="#SOBRE"><b>SOBRE</b></a></button>
+              </div>
+            </li>     
+            <li>
+              <div class="btn-group">
+                <a class="nav-link text-white" href="#COMUNIDADE">
+                  <button class="btn btn-secondary">
+                    <b>COMUNIDADE</b>
+                  </button>
+                </a>
+              </div>
+            </li>           
+        </ul>
+    </div>
+  </nav>
+  
+  <div class="container-fluid">
+    <div class="custom-carousel">
+      <div class="custom-carousel-items" id="custom-carousel-items" style="left: 0%;">
+          <div class="custom-carousel-item">
+            <div class="custom-jumbotron">
+              <img class="img-jumbotron" src="Imagens/JackandDaxter.png" alt="">
+              <div class="custom-jumbotron-buttons">
+                  <a class="custom-jumbotron-button secondary" href="https://www.playstation.com/en-us/games/jak-and-daxter-the-precursor-legacy/" target="_blank">Visitar Site Oficial</a>
+              </div>
+            </div>
+            <video src="Videos/The Jak and Daxter Collection  Launch Trailer  PS4_1080p_Trim.mp4" muted autoplay loop style="object-fit: none;"></video>
+          </div>
+          <div class="custom-carousel-item">
+            <div class="custom-jumbotron">
+              <img src="Imagens/The-Last-Of-Us-Logo-PNG-mini.png" alt="">
+              <div class="custom-jumbotron-buttons">
+                <a class="custom-jumbotron-button secondary" href="https://www.playstation.com/pt-pt/games/the-last-of-us-part-i/#overview" target="_blank">Visitar Site Oficial</a>
+              </div>
+            </div>
+            <video src="Videos/The Last of Us Part I  Announce Trailer  PS5 Games_1080pFHR_Trim.mp4" muted autoplay loop></video>
+          </div>
+          <div class="custom-carousel-item">
+            <div class="custom-jumbotron">
+              <img src="Imagens/Uncharted_logo.png" alt="">
+              <div class="custom-jumbotron-buttons">
+                <a class="custom-jumbotron-button secondary" href="https://www.playstation.com/pt-pt/uncharted/" target="_blank">Visitar Site Oficial</a>
+              </div>
+            </div>
+            <video src="Videos/Uncharted Legacy of Thieves Collection  Launch Trailer  PS5_1080pFHR_.mp4" muted autoplay loop></video>
+          </div>
+      </div>
+      <div class="custom-carousel-index-buttons">
+        <i class="fa-solid fa-chevron-left left-arrow" id="left-arrow"></i>
+        <div class="radio active" value="0"></div>
+        <div class="radio" value="1"></div>
+        <div class="radio" value="2"></div>
+        <i class="fa-solid fa-chevron-right right-arrow" id="right-arrow"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-background" id="SOBRE">
+    <!--INICIO DE JOGOS -->
+      <section>
+        <h1 class="text-white text-center news-title">SOBRE</h1>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-dark news-item" type="button" data-bs-toggle="collapse" data-bs-target="#UnchartedInfo" onclick="document.getElementById('UnchartedInfo').style.display='block' ; document.getElementById('TLOUInfo').style.display='none' ; document.getElementById('JADInfo').style.display='none' ">
+                <img src="Imagens/Uncharted_logo.png" alt="UnchartedLogo" style="width:160px;height:37px;" class="img-news zoomOut">
+              </button>
+            </div>
+            <div class="col">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#TLOUInfo" aria-expanded="false" onclick="document.getElementById('UnchartedInfo').style.display='none' ; document.getElementById('TLOUInfo').style.display='block' ; document.getElementById('JADInfo').style.display='none'">
+                <img src="Imagens/The-Last-Of-Us-Logo-PNG-mini.png" alt="TLOULogo" style="width:160px;height:35px;" class="img-news zoomOut">
+              </button>
+            </div>
+            <div class="col">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#JADInfo" aria-expanded="false" onclick="document.getElementById('UnchartedInfo').style.display='none' ; document.getElementById('TLOUInfo').style.display='none' ; document.getElementById('JADInfo').style.display='block'">
+                <img src="Imagens/JackandDaxter.png" alt="JackandDaxterlogo" class="img-news zoomOut"></button>
+            </div>
+          </div>
+        </div>
+        </section>
+        <div class="container mt-4">
+          <!--Info dos jogos-->
+          <!--Uncharted buton-->
+          <div class="col-md-8 collapse infodiv" id="UnchartedInfo">
+            <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-white">Sobre Uncharted</h3>
+                <p class="card-text mb-auto infop">Criada por <strong>Amy Hennig</strong>, a franquia Uncharted segue um grupo de 
+                  caçadores de tesouros que viajam pelo mundo para desvendar mistérios históricos ao percorrer diferentes ambientes 
+                  maravilhosamente concebidos.</p><p></p>
+                <p class="card-text mb-auto infop">Junta-te a Nathan Drake (Protagonista) e Chloe Frazer (Protagonista da expansão) pelo mundo fora enquanto eles enfrentam mercenários, 
+                  desvendam histórias esquecidas e enfrentam os seus mais profundos medos para forjar o seu legado.</p>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="Imagens/unchartedinfo2.jpg" class="bd-placeholder-img" width="250" height="250" aria-label="Placeholder: Thumbnail" alt="">
+              </div>
+            </div>
+            <h2 class="text-white text-center news-title">FRANQUIA</h2>
+            <!--Franaquia uncharted-->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Uncharted_1.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail"  >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>UNCHARTED: Drake's Fortune</strong></h5>
+                    <p class="card-text infop text-center">2007</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Uncharted_2.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail"  >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>UNCHARTED 2: Among Thieves</strong></h5>
+                    <p class="card-text infop text-center">2009</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Uncharted_3_Drakes_Deception.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>UNCHARTED 3: Drake's Deception</strong></h5>
+                    <p class="card-text infop text-center">2011</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Uncharted_4.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>UNCHARTED 4: A Thief's End</strong></h5>
+                    <p class="card-text infop text-center">2016</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Uncharted_The_Lost_Legacy.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>UNCHARTED: The Lost Legacy</strong></h5>
+                    <p class="card-text infop text-center">2017</p>
+                  </div>
+                </div>
+              </div>   
+          </div>
+          </div>
+           <!--Fim uncharted buton-->
+           <!--TLOU buton-->
+           <div class="col-md-8 collapse infodiv" id="TLOUInfo">
+            <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-white">Sobre The Last Of Us</h3>
+                <p class="card-text mb-auto infop">The Last of Us, inicialmente lançado em 2013 levando depois um remake, passa-se num mundo pós-apocalíptico no qual 
+                  os jogadores usam armas de fogo e armas improvisadas a fim de se defenderem de humanos hostis e criaturas 
+                  canibalísticas infectadas por uma mutação do fungo Cordyceps.</p><p></p>
+                <p class="card-text mb-auto infop">Junta-te a Joel que é contratado para tirar ilegalmente Ellie, uma rapariga de 
+                  14 anos, de uma zona de quarentena militarizada. Porém, o que começa por ser um trabalho simples 
+                  transforma-se numa viagem brutal.</p>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="Imagens/InfoTheLastOfUs.png" class="bd-placeholder-img" width="250" height="250" alt="" aria-label="Placeholder: Thumbnail" >
+              </div>
+            </div>
+            <h2 class="text-white text-center news-title">FRANQUIA</h2>
+            <!--Franaquia TLOU-->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_The_Last_Of_Us.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>The Last of Us Part I</strong></h5>
+                    <p class="card-text infop text-center">2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_The_Last_Of_Us2.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>The Last of Us Part II</strong></h5>
+                    <p class="card-text infop text-center">2020</p>
+                  </div>
+                </div>
+              </div>   
+          </div>
+          </div>
+           <!--Fim TLOU buton-->
+           <!--JAD buton-->
+          <div class="col-md-8 collapse infodiv" id="JADInfo">
+            <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0 text-white">Sobre Jak and Daxter</h3>
+                <p class="card-text mb-auto infop">Jak and Daxter é uma franquia de jogos criada pela empresa Naughty Dog, mais 
+                  precisamente por Andy Gavin e Jason Rubin. A série 
+                  consiste em quatro jogos principais, mais dois spin-offs.</p><p></p>
+                <p class="card-text mb-auto infop">Entra num mundo de magia, aventura, exploração e descoberta, onde enormes 
+                  vistas e personagens exóticos te levam a lugares além da tua imaginação e  
+                  embarca numa jornada para reverter a transformação de seu melhor amigo em um Ottsel peludo, mesmo quando ele o 
+                  envolve em suas travessuras divertidas.</p>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="Imagens/JADInfo.jpg" class="bd-placeholder-img" width="250" height="250" alt="" aria-label="Placeholder: Thumbnail" >
+              </div>
+            </div>
+            <h2 class="text-white text-center news-title">FRANQUIA</h2>
+            <!--Franaquia JAD-->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Jak and Daxter: The Precursor Legacy</strong></h5>
+                    <p class="card-text infop text-center">2001</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_JakII.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Jak II</strong></h5>
+                    <p class="card-text infop text-center">2003</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Jak_3.png" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Jak 3</strong></h5>
+                    <p class="card-text infop text-center">2004</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Jack_X.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Jak X: Combat Racing</strong></h5>
+                    <p class="card-text infop text-center">2005</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_Daxter.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Daxter</strong></h5>
+                    <p class="card-text infop text-center">2006</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col infodiv">
+                <div class="row g-0 rounded overflow-hidden flex-md-row mb-2 h-md-250 position-relative">
+                  <img src="Imagens/Capa_JAD_The_Lost_Frontier.jpg" class="bd-placeholder-img card-img-top" width="100" height="225" alt="" aria-label="Placeholder: Thumbnail" >
+                  <div class="card-body">
+                    <h5 class="card-text text-white text-center mt-2"><strong>Jak and Daxter: The Lost Frontier</strong></h5>
+                    <p class="card-text infop text-center">2009</p>
+                  </div>
+                </div>
+              </div>   
+          </div>
+          </div>
+           <!--Fim JAD buton-->
+           <!--COMUNIDADE-->
+        <div class="container mt-4" id="COMUNIDADE">
+          <div class="row">
+            <button class="btn btn-dark ver-mais mb-3" >
+              <a href="https://www.naughtydog.com/blog" target="_blank"> Ver Mais</a>
+          </button>
+          </div>
+        </div>
+        <h1 class="text-white text-center news-title mt-6 mb-2">COMUNIDADE</h1>
+        <div class="row containerfooter">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="w-100">
+              <div class="embed-responsive embed-responsive-16by9">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The race is on! Join the adventure at home by experiencing <a href="https://twitter.com/hashtag/UnchartedMovie?src=hash&amp;ref_src=twsrc%5Etfw">#UnchartedMovie</a>, Now on Blu-ray, 4K UHD, and Digital! <a href="https://t.co/oBpGSnKfCu">https://t.co/oBpGSnKfCu</a> <a href="https://t.co/cSigElS9tt">pic.twitter.com/cSigElS9tt</a></p>&mdash; Uncharted (@unchartedmovie) <a href="https://twitter.com/unchartedmovie/status/1524056680803147776?ref_src=twsrc%5Etfw">May 10, 2022</a></blockquote> 
+              </div>  
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="w-100">
+              <div class="embed-responsive embed-responsive-16by9">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Last of Us Part I is now available worldwide! Thank you to the fans for your support and excitement, and thank you to the studio members and our partners at SIE for your incredible contributions!<br><br>Have an awesome adventure -- endure and survive 🦒 <a href="https://t.co/0vDS2OBzkf">pic.twitter.com/0vDS2OBzkf</a></p>&mdash; Naughty Dog (@Naughty_Dog) <a href="https://twitter.com/Naughty_Dog/status/1565550307790274561?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote> 
+              </div>  
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="w-100">
+              <div class="embed-responsive embed-responsive-16by9">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This amazing Clicker drawing done by Samuel shows just how fearsome fungi can be!<br><br>Share your own cosplay, tattoos, fan art, and more here: <a href="https://t.co/Phy0iNScpD">https://t.co/Phy0iNScpD</a> <a href="https://t.co/MiMtswlMnX">pic.twitter.com/MiMtswlMnX</a></p>&mdash; Naughty Dog (@Naughty_Dog) <a href="https://twitter.com/Naughty_Dog/status/1619032554446766096?ref_src=twsrc%5Etfw">January 27, 2023</a></blockquote>
+              </div>  
+            </div>
+          </div>
+          <div class="row mt-4">
+            <button class="btn btn-dark ver-mais mb-5">
+              <a href="https://twitter.com/activision" target="_blank" >Saber Mais</a>
+            </button>
+          </div>
+        </div>
+  </div>
+  </div>
+  <div class="containerfooter">
+    <div class="sticky-bottom">
+      <div class="container text-center">
+        <div class="row">
+          
+          <div class="col-sm-12 col-lg-6 col-md-12 mb-5">
+            <img src="Imagens/portugal.png" class="rounded mx-auto d-block" style="width: 15px; height: 15px; " alt="imgfooter">
+            <a href="NaughtyDog.html"><img src="Imagens/NaughtyDog_Logo.png" class="rounded mx-auto d-block" style="width: 300px; height: 75px; " alt="imgfooter"></a>
+          
+      </div>
+         
+          <div class="col-sm-12 col-lg-6 col-md-12 mb-5">
+            <h6 class="display-6">SEGUE-NOS</h6>
+            <a href="https://www.instagram.com/naughty_dog_inc/" target="_blank"><button class="btn btn-dark follow"><i class="fa-brands fa-instagram"></i></button></a>
+            <a href="https://twitter.com/naughty_dog" target="_blank"><button class="btn btn-dark "><i class="fa-brands fa-twitter"></i></button></a>
+            <a href="https://www.youtube.com/user/NaughtyDog" target="_blank"><button class="btn btn-dark "><i class="fa-brands fa-youtube"></i></button></a>
+            <a href="https://www.facebook.com/naughtydog" target="_blank"><button class="btn btn-dark "><i class="fa-brands fa-steam"></i></button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" style="display: block; z-index: 9999;">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+ 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
